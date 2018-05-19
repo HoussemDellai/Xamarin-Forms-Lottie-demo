@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:LottieDemo"
+             xmlns:forms="clr-namespace:Lottie.Forms;assembly=Lottie.Forms"
+             x:Class="LottieDemo.MainPage">
+
+    <ScrollView>
+        <StackLayout Padding="20,60">
+            <!-- Place new controls here -->
+            <Label Text="Xamarin.Forms"
+                   FontSize="40"
+                   TextColor="Navy" />
+
+            <Label Text="Lottie Animations"
+                   FontSize="40"
+                   TextColor="DodgerBlue" />
+
+            <forms:AnimationView x:Name="LottieFile"
+                                 Animation="star.json"
+                                 Loop="True"
+                                 AutoPlay="True"
+                                 WidthRequest="260"
+                                 HeightRequest="260" />
+
+            <forms:AnimationView Animation="rewards.json"
+                                 Loop="True"
+                                 AutoPlay="True"
+                                 WidthRequest="260"
+                                 HeightRequest="260" />
+
+            <forms:AnimationView Animation="trophy.json"
+                                 Loop="True"
+                                 AutoPlay="True"
+                                 WidthRequest="260"
+                                 HeightRequest="260" />
+            
+            <forms:AnimationView Animation="check_mark.json"
+                                 Loop="True"
+                                 AutoPlay="True"
+                                 />
+
+            <forms:AnimationView Animation="gears.json"
+                                 Loop="True"
+                                 AutoPlay="True"
+                                 WidthRequest="260"
+                                 HeightRequest="260" />
+
+            <forms:AnimationView Animation="loading.json"
+                                 Loop="True"
+                                 AutoPlay="True"
+                                 WidthRequest="260"
+                                 HeightRequest="260" />
+
+            <forms:AnimationView Animation="motorcycle.json"
+                                 Loop="True"
+                                 AutoPlay="True"
+                                 WidthRequest="260"
+                                 HeightRequest="260" />
+
+            <forms:AnimationView Animation="tick_tick.json"
+                                 Loop="True"
+                                 AutoPlay="True"
+                                 WidthRequest="260"
+                                 HeightRequest="260" />
+
+        </StackLayout>
+    </ScrollView>
+
+</ContentPage>
